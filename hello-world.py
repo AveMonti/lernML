@@ -9,5 +9,5 @@ labels = [0, 0, 1, 1]
 # train classifire
 clf = tree.DecisionTreeClassifier()
 clf = clf.fit(features,labels)
-print clf.predict([[160,0]])
 #make predictions
+print clf.predict([[160,0]])
